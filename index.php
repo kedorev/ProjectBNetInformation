@@ -16,7 +16,7 @@ include "include.php";
         </title>
     </head>
     <body>
-
+        Ceci est l'api bnet
         <footer>
             <script src="JS/JQuery.min.js"></script>
             <script src="JS/constant.js"></script>
