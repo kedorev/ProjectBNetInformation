@@ -6,6 +6,8 @@
  * Time: 12:09
  */
 
+session_start();
+
 include "Class/autoloader.php";
 include "constant.php";
 

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="2d8de4ab-1b64-4177-bd35-7f58ed45fe0d" name="Server FTP" url="http://ftp.cluster011.hosting.ovh.net">
-        <fileTransfer host="ftp.cluster011.hosting.ovh.net" port="21" rootFolder="/home/maximelede/bnet">
+      <webServer id="2d8de4ab-1b64-4177-bd35-7f58ed45fe0d" name="Server FTP" url="http://bnet.maxime-lerbret.com">
+        <fileTransfer host="151.80.61.72" port="21" rootFolder="/var/www/html">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
