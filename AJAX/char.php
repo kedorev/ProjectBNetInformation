@@ -11,10 +11,11 @@ include "AJAXInclude.php";
 
 if(isset($_POST))
 {
-    if(isset($_POST['Method']) && $_POST['Method'] == "global")
+    if(isset($_POST['Method']) && $_POST['Method'] == "Global")
     {
-        unset($_SESSION["character"]);
+        //unset($_SESSION["character"]);
 
+        echo "test";
         $personnage = new Perso();
 
         $data = $_POST['dataBNet'];

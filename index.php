@@ -23,7 +23,6 @@ include "include.php";
                 Ce site a pour but de permettre l'accès aux informations fournies par blizzard entertainment.
             </p>
         </div>
-        <?php echo URLSite ?>
         <div id="search">
             search aeriona
         </div>

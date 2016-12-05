@@ -35,6 +35,7 @@ jQuery(document).ready(function(){
                 url = urlApiWOW + "character/" + $( "#realm option:selected" ).text() +"/"+$("#nameCaracter:input").val()  + "?fields=pets&locale=" + $( "#local option:selected" ).text()  + "&apikey=" + apikey;
                 getCharData(url);
             }
+            //window.location();
         }
         else
         {
@@ -57,7 +58,7 @@ jQuery(document).ready(function(){
                 $.ajax({
                     url : "AJAX/char.php",
                     type : 'POST',
-                    data: { dataBNet: dataBNet, Mehod: "Global"},
+                    data: { dataBNet: dataBNet, Method: "Global"},
                     success : function(statut){
                         console.log("success");
                         console.log(statut);
