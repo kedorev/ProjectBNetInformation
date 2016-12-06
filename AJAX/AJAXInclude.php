@@ -8,3 +8,4 @@
 
 session_start();
 include "AJAXAutoloader.php";
+include "../constant.php";

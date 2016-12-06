@@ -14,12 +14,15 @@ class Perso
     private $battlegroup;
     private $level;
     private $totalHonorableKills;
+    private $petsList;
+    private $thumbnail;
 
     /**
      * Perso constructor.
      */
     public function __construct()
-    {}
+    {
+    }
 
     /**
      * @return mixed
@@ -115,6 +118,22 @@ class Perso
     public function setTotalHonorableKills($totalHonorableKills)
     {
         $this->totalHonorableKills = $totalHonorableKills;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getThumbnail()
+    {
+        return $this->thumbnail;
+    }
+
+    /**
+     * @param mixed $thumbnail
+     */
+    public function setThumbnail($thumbnail)
+    {
+        $this->thumbnail = $thumbnail;
     }
 
 

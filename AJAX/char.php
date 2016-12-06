@@ -26,6 +26,7 @@ if(isset($_POST))
         $personnage->setLevel($data["level"]);
         $personnage->setAchievementPoints($data["achievementPoints"]);
         $personnage->setTotalHonorableKills($data["totalHonorableKills"]);
+        $personnage->setThumbnail(urlApiRenderWow . $data["thumbnail"]);
         $_SESSION["character"] =  serialize($personnage);
     }
 }
